@@ -1,10 +1,11 @@
 {
-  "name": "electron-fiddle",
+  "name": "fiddle",
   "productName": "Electron Fiddle",
   "version": "0.15.0",
   "description": "The easiest way to get started with Electron",
   "repository": "https://github.com/electron/fiddle",
   "main": "./dist/src/main/main",
+  "bin": "./bin/start",
   "scripts": {
     "contributors": "node ./tools/contributors.js",
     "less": "node ./tools/lessc.js",
@@ -84,6 +85,7 @@
     "chokidar": "^3.3.1",
     "coveralls": "^3.0.9",
     "electron": "8.0.2",
+    "electron-prebuilt-compile": "8.2.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "enzyme-to-json": "^3.4.4",
